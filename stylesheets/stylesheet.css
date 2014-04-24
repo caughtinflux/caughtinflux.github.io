@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+.container-head {
+  text-align: center;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -215,11 +219,6 @@ hr {
   height: 16px;
   margin: 1px 8px 0 0;
   float: left;
-}
-
-.btn-github .icon {
-  opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
 /* Links

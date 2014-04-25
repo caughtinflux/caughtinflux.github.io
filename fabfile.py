@@ -13,7 +13,7 @@ def prepare_deploy():
     push()
 
 def deploy():
-    code_dir = '/webapps/checker/PurchaseCheck'
+    code_dir = '/webapps/website'
     with settings(warn_only=True):
         if run("test -d %s" % code_dir).failed:
             # For first deploy
